@@ -14,7 +14,7 @@ function download_csv() {
     const url = "https://api.census.gov/data/2018/acs/acs5/subject?get=";
 
     //API Key
-    const apiKey = "6df8ecbbdd76fb9432d628ae6178349765cba241";
+    const apiKey = "INSERT_API_KEY";
 
     //constructs url endpoint we will make our request from
     const link = `${url}${variable_value}${",NAME&for="}${geography_value}${" :*&key="}${apiKey}`;
